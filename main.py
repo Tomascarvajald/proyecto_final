@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Union
-from predecir import predecir_credito  # o importar local si está en el mismo archivo
 
 app = FastAPI()
 
